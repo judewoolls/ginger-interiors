@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.content {
+    flex: 1;
+}
+
+.carousel-inner {
+    max-height: 800px;
+    border-radius: 20px;
+}
+
+.carousel-image {
+    max-height: 800px;
+    object-fit: cover/top;
+    border-radius: 20px;
+}
+
+.custom-navbar {
+    background-color: #36454F;
+    padding: 1rem 1.5rem;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    font-size: 1.25rem;
+    /* Increase font size */
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.custom-navbar .nav-link {
+    padding: 0.75rem 1rem;
+    /* Increase padding */
+}
