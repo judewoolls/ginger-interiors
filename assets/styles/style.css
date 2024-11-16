@@ -6,7 +6,8 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #36454F;
+    /* background-color: #36454F; */
+    text-align: center;
 }
 
 .back-ground-container {
@@ -29,7 +30,7 @@ body {
 }
 
 .custom-navbar {
-    background-color: #36454F;
+    /* background-color: #36454F; */
     padding: 1rem 1.5rem;
 }
 
@@ -40,7 +41,7 @@ body {
 }
 
 .custom-navbar .navbar-brand {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: orange;
 }
@@ -48,4 +49,14 @@ body {
 .custom-navbar .nav-link {
     padding: 0.75rem 1rem;
     /* Increase padding */
+}
+
+
+/* footer */
+footer{
+    border-top: 1px solid orange;
+}
+
+footer div p {
+    color: orange;
 }
